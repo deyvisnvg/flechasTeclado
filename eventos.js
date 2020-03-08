@@ -17,7 +17,7 @@ function dibujarLinea(color, xinicial, yinicial, xfinal, yfinal, lienzo)
 {
   lienzo.beginPath();
   lienzo.strokeStyle = color;
-  lienzo.lineWidth = 3;
+  lienzo.lineWidth = 2;
   lienzo.moveTo(xinicial, yinicial);
   lienzo.lineTo(xfinal, yfinal);
   lienzo.stroke();
@@ -26,7 +26,7 @@ function dibujarLinea(color, xinicial, yinicial, xfinal, yfinal, lienzo)
 
 function dibujarTeclado(evento)
 {
-  var colorcito = "#FAA";
+  var colorcito = "red";
   var movimiento = 5;
   switch(evento.keyCode)
   {
